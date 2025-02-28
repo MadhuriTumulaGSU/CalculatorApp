@@ -75,7 +75,7 @@ class _CalculatorAppState extends State<CalculatorApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: const Color.fromARGB(255, 184, 139, 139),
         appBar: AppBar(title: Text("Calculator")),
         body: Column(
           children: [
